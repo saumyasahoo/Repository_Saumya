@@ -1,4 +1,4 @@
-package com.core.simpragma.controller;
+package com.core.saumya.controller;
 
 import java.util.HashMap;
 import java.util.List;
@@ -19,13 +19,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.core.simpragma.service.ArticleManagementService;
-import com.core.simpragma.vo.AccessToken;
-import com.core.simpragma.vo.Article;
-import com.core.simpragma.vo.Articles;
-import com.core.simpragma.vo.LoginInfo;
-import com.core.simpragma.vo.RegistrationInfo;
-import com.core.simpragma.vo.ResponseMessage;
+import com.core.saumya.service.ArticleManagementService;
+import com.core.saumya.vo.AccessToken;
+import com.core.saumya.vo.Article;
+import com.core.saumya.vo.Articles;
+import com.core.saumya.vo.LoginInfo;
+import com.core.saumya.vo.RegistrationInfo;
+import com.core.saumya.vo.ResponseMessage;
 
 @RestController
 public class ArticleManagementController {

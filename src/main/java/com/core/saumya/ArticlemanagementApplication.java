@@ -1,4 +1,4 @@
-package com.core.simpragma;
+package com.core.saumya;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

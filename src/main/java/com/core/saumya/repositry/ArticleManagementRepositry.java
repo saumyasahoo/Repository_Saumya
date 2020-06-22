@@ -1,10 +1,10 @@
-package com.core.simpragma.repositry;
+package com.core.saumya.repositry;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 
-import com.core.simpragma.vo.RegistrationInfo;
+import com.core.saumya.vo.RegistrationInfo;
 
 public interface ArticleManagementRepositry extends CrudRepository<RegistrationInfo, String> {
 

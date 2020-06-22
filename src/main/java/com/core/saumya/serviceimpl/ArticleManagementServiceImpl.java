@@ -1,10 +1,10 @@
-package com.core.simpragma.serviceimpl;
+package com.core.saumya.serviceimpl;
 
-import static com.core.simpragma.vo.Constant.FAILURE;
-import static com.core.simpragma.vo.Constant.INVALID_UN_PWD;
-import static com.core.simpragma.vo.Constant.NEW_ARTICLE;
-import static com.core.simpragma.vo.Constant.NEW_USER;
-import static com.core.simpragma.vo.Constant.SUCCESS;
+import static com.core.saumya.vo.Constant.FAILURE;
+import static com.core.saumya.vo.Constant.INVALID_UN_PWD;
+import static com.core.saumya.vo.Constant.NEW_ARTICLE;
+import static com.core.saumya.vo.Constant.NEW_USER;
+import static com.core.saumya.vo.Constant.SUCCESS;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,15 +17,15 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import com.core.simpragma.repositry.ArticleManagementRepositry;
-import com.core.simpragma.repositry.ArticleRepositry;
-import com.core.simpragma.service.ArticleManagementService;
-import com.core.simpragma.vo.AccessToken;
-import com.core.simpragma.vo.Article;
-import com.core.simpragma.vo.Articles;
-import com.core.simpragma.vo.LoginInfo;
-import com.core.simpragma.vo.RegistrationInfo;
-import com.core.simpragma.vo.ResponseMessage;
+import com.core.saumya.repositry.ArticleManagementRepositry;
+import com.core.saumya.repositry.ArticleRepositry;
+import com.core.saumya.service.ArticleManagementService;
+import com.core.saumya.vo.AccessToken;
+import com.core.saumya.vo.Article;
+import com.core.saumya.vo.Articles;
+import com.core.saumya.vo.LoginInfo;
+import com.core.saumya.vo.RegistrationInfo;
+import com.core.saumya.vo.ResponseMessage;
 
 @Service
 public class ArticleManagementServiceImpl implements ArticleManagementService {

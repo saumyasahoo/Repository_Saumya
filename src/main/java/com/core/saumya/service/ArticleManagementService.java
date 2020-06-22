@@ -1,13 +1,13 @@
-package com.core.simpragma.service;
+package com.core.saumya.service;
 
 import java.util.List;
 
-import com.core.simpragma.vo.AccessToken;
-import com.core.simpragma.vo.Article;
-import com.core.simpragma.vo.Articles;
-import com.core.simpragma.vo.LoginInfo;
-import com.core.simpragma.vo.RegistrationInfo;
-import com.core.simpragma.vo.ResponseMessage;
+import com.core.saumya.vo.AccessToken;
+import com.core.saumya.vo.Article;
+import com.core.saumya.vo.Articles;
+import com.core.saumya.vo.LoginInfo;
+import com.core.saumya.vo.RegistrationInfo;
+import com.core.saumya.vo.ResponseMessage;
 
 public interface ArticleManagementService {
 	ResponseMessage createUser(RegistrationInfo registrationInfo);

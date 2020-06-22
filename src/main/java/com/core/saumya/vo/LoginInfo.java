@@ -1,4 +1,4 @@
-package com.core.simpragma.vo;
+package com.core.saumya.vo;
 
 public class LoginInfo  {
 	private String userName;

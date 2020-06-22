@@ -1,4 +1,4 @@
-package com.core.simpragma.vo;
+package com.core.saumya.vo;
 
 public class ResponseMessage {
 

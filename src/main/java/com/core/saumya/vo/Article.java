@@ -1,4 +1,4 @@
-package com.core.simpragma.vo;
+package com.core.saumya.vo;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

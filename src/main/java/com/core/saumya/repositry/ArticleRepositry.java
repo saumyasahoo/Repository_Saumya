@@ -1,11 +1,11 @@
-package com.core.simpragma.repositry;
+package com.core.saumya.repositry;
 
 import java.util.List;
 
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.CrudRepository;
 
-import com.core.simpragma.vo.Article;
+import com.core.saumya.vo.Article;
 
 public interface ArticleRepositry extends CrudRepository<Article, String> {
 	
