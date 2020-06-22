@@ -10,6 +10,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -37,6 +39,7 @@ public class ArticleManagementServiceImpl implements ArticleManagementService {
 	ArticleRepositry articleRepositry;
 
 	@Override
+	@Transactional
 	public ResponseMessage createUser(RegistrationInfo registrationInfo) {
 		articleManagementRepositry.save(registrationInfo);
 		responseCode = new ResponseMessage();
